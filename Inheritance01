@@ -25,9 +25,19 @@ Person.prototype.name=null;   //prototype 처음 등장
 Person.prototype.introduce = function(){
     return 'My name is '+this.name; 
 }
+
+function Programmer(name){
+            this.name = name;
+        }
+        Programmer.prototype = new Person();
+        Programmer.prototype.coding = function(){
+            return  "I do coding everyday"
+        }
+
 var p1 = new Person('egoing');
 document.write(p1.introduce()+"<br />");
 
+var p2 = new programmer
 
 
 
