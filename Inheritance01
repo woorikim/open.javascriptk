@@ -59,6 +59,10 @@ function Programmer(name){
             return  "I do golf everyday"
         }
 
+Array.prototype.rand = function(){
+		    var index = Math.floor(this.length*Math.random());
+		    return this[index];
+		}
 
 var p1 = new Programmer('egoing');
         document.write(p1.introduce()+"<br />");
