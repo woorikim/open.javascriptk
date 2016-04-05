@@ -6,6 +6,10 @@
 		<title></title>
 </head>
     <body>
+    <ul>
+    	<li>list 추가 </li>
+    	<li>git 병합 </li>
+    </ul>
         <script type="text/javascript">
 
 /* function Person(name){
@@ -17,6 +21,8 @@
 var p1 = new Person('egoing');
 document.write(p1.introduce()+"<br />"); 
 //위의 코드를 아래처럼 바꿨다.  */
+
+
 
         function Person(name){
     this.name = name;
