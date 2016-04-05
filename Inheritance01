@@ -47,8 +47,10 @@ var p1 = new Programmer('egoing');
         document.write(p1.introduce()+"<br />");
         document.write(p1.coding()+"<br />");
 
+var p2 = new Golfer('Eugene')
+       
 
-var p2 = new programmer
+var p3 = new programmer
 
 
 
