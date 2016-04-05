@@ -34,6 +34,13 @@ function Programmer(name){
             return  "I do coding everyday"
         }
 
+ function Golfer(name){
+            this.name = name;
+        }
+        Golfer.prototype = new Person();
+        Golfer.prototype.Playgolf = function(){
+            return  "I do golf everyday"
+        }
 var p1 = new Person('egoing');
 document.write(p1.introduce()+"<br />");
 
