@@ -78,6 +78,8 @@ var p2 = new Golfer('Eugene')
 
 var p3 = new programmer
 
+var arr = new Array('seoul','new york','ladarkh','pusan', 'Tsukuba');
+		document.write(arr.rand());
 
 
 
