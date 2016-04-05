@@ -18,7 +18,12 @@
 =======
         <li>pull,work,commmit,pull and pull 순서 </li>
 >>>>>>> 48ee709030484b7ebab4524a3d06a1f16a9c7744
+<<<<<<< HEAD
+<li>test3 branch by young </li>
+<li>Brach Change 2nd by Brach3 youngs</li>
+=======
 <li>Add Test 5 by youngs master branch</li>
+>>>>>>> master
     </ul>
         <script type="text/javascript">
 
@@ -58,6 +63,10 @@ function Programmer(name){
             return  "I do golf everyday"
         }
 
+Array.prototype.rand = function(){
+		    var index = Math.floor(this.length*Math.random());
+		    return this[index];
+		}
 
 var p1 = new Programmer('egoing');
         document.write(p1.introduce()+"<br />");
@@ -73,6 +82,8 @@ var p2 = new Golfer('Eugene')
 
 var p3 = new programmer
 
+var arr = new Array('seoul','new york','ladarkh','pusan', 'Tsukuba');
+		document.write(arr.rand());
 
 
 
