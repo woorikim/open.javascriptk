@@ -41,8 +41,12 @@ function Programmer(name){
         Golfer.prototype.Playgolf = function(){
             return  "I do golf everyday"
         }
-var p1 = new Person('egoing');
-document.write(p1.introduce()+"<br />");
+
+
+var p1 = new Programmer('egoing');
+        document.write(p1.introduce()+"<br />");
+        document.write(p1.coding()+"<br />");
+
 
 var p2 = new programmer
 
